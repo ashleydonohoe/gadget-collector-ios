@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E0EE11941ED0D16300374EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EE11931ED0D16300374EAF /* AppDelegate.swift */; };
-		E0EE11961ED0D16300374EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EE11951ED0D16300374EAF /* ViewController.swift */; };
 		E0EE11991ED0D16300374EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EE11971ED0D16300374EAF /* Main.storyboard */; };
 		E0EE119C1ED0D16300374EAF /* GadgetCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0EE119A1ED0D16300374EAF /* GadgetCollector.xcdatamodeld */; };
 		E0EE119E1ED0D16300374EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EE119D1ED0D16300374EAF /* Assets.xcassets */; };
 		E0EE11A11ED0D16300374EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EE119F1ED0D16300374EAF /* LaunchScreen.storyboard */; };
+		E0EE11AB1ED0D63600374EAF /* AddGadgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EE11AA1ED0D63600374EAF /* AddGadgetViewController.swift */; };
+		E0EE11AD1ED0DF5C00374EAF /* GadgetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EE11AC1ED0DF5C00374EAF /* GadgetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0EE11901ED0D16300374EAF /* GadgetCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GadgetCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EE11931ED0D16300374EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		E0EE11951ED0D16300374EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E0EE11981ED0D16300374EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0EE119B1ED0D16300374EAF /* GadgetCollector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GadgetCollector.xcdatamodel; sourceTree = "<group>"; };
 		E0EE119D1ED0D16300374EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0EE11A01ED0D16300374EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0EE11A21ED0D16300374EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EE11AA1ED0D63600374EAF /* AddGadgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGadgetViewController.swift; sourceTree = "<group>"; };
+		E0EE11AC1ED0DF5C00374EAF /* GadgetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GadgetsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				E0EE11931ED0D16300374EAF /* AppDelegate.swift */,
-				E0EE11951ED0D16300374EAF /* ViewController.swift */,
+				E0EE11AA1ED0D63600374EAF /* AddGadgetViewController.swift */,
+				E0EE11AC1ED0DF5C00374EAF /* GadgetsViewController.swift */,
 				E0EE11971ED0D16300374EAF /* Main.storyboard */,
 				E0EE119D1ED0D16300374EAF /* Assets.xcassets */,
 				E0EE119F1ED0D16300374EAF /* LaunchScreen.storyboard */,
@@ -140,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EE11AD1ED0DF5C00374EAF /* GadgetsViewController.swift in Sources */,
+				E0EE11AB1ED0D63600374EAF /* AddGadgetViewController.swift in Sources */,
 				E0EE119C1ED0D16300374EAF /* GadgetCollector.xcdatamodeld in Sources */,
-				E0EE11961ED0D16300374EAF /* ViewController.swift in Sources */,
 				E0EE11941ED0D16300374EAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

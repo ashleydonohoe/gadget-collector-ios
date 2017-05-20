@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GadgetCollector
 //
-//  Created by Gabriele on 5/20/17.
+//  Created by Ashley Donohoe on 5/20/17.
 //  Copyright © 2017 Ashley Donohoe. All rights reserved.
 //
 
