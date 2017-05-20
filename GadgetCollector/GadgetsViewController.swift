@@ -40,4 +40,14 @@ class GadgetsViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell.imageView?.image = UIImage(data: gadget.image as! Data)
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let gadget = gadgets[indexPath.row]
+        performSegue(withIdentifier: "showGadget", sender: gadget)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! AddGadgetViewController
+        nextVC.gadget = sender as? Gadget
+    }
 }
